@@ -71,7 +71,7 @@
     .card {
       background: var(--card);
       border-radius: var(--radius);
-      box-shadow: 0 8px 18px var(--shadow);
+      box-shadow: 0 8px 18px var(--accent);
       overflow: hidden;
       border: 1px solid #e5e7eb;
       transition: transform var(--speed) ease, box-shadow var(--speed) ease, border-color var(--speed) ease;
@@ -79,8 +79,8 @@
     .card:focus-within,
     .card:hover {
       transform: translateY(-6px);
-      box-shadow: 0 16px 28px var(--shadow-strong);
-      border-color: var(--ink); ;
+      box-shadow: 0 16px 28px var(--ink);
+      border-color: var(--brand-a); ;
     }
       /* Banda superior con gradiente */
     /* 
